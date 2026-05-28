@@ -20,6 +20,16 @@ export function Footer() {
           >
             GitHub
           </a>
+          {profile.contact.linkedin && (
+            <a
+              className="text-slate-300 hover:text-white"
+              href={profile.contact.linkedin}
+              target="_blank"
+              rel="noreferrer"
+            >
+              LinkedIn
+            </a>
+          )}
         </div>
       </Container>
     </footer>

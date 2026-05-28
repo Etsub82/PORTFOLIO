@@ -13,7 +13,7 @@ export const profile = {
   contact: {
     email: 'etsubdink89@gmail.com',
     github: 'https://github.com/Etsub82',
-    linkedin: '',
-    resumeUrl: '',
+    linkedin: 'https://www.linkedin.com/in/etsubdink-abreham',
+    resumeUrl: '/resume.pdf',
   },
 } as const
